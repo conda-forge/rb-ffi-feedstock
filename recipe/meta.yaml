@@ -1,5 +1,5 @@
 {% set name = "ffi" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 90ae2a7fe7ac4c0af30650fba8b75d93ff3611803c4937248118797ae5edbb1a
+  sha256: d16674ae00279a7aeed705fa854af7d721cf5b0a4abf6a802f306e9f87ec5b44
 
 build:
-  number: 1
+  number: 0
   script:
     - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem
