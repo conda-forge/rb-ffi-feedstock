@@ -5,11 +5,13 @@ Home: https://rubygems.org/gems/ffi
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rb-ffi-feedstock/blob/master/LICENSE.txt)
 
 Summary: Ruby FFI library
 
+Development: https://github.com/ffi/ffi
 
+Documentation: https://github.com/ffi/ffi/wiki
 
 Current build status
 ====================
@@ -29,31 +31,31 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_ruby2.5</td>
+              <td>linux_64_ruby2.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7607&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=linux&configuration=linux_ruby2.5" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=linux&configuration=linux_64_ruby2.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ruby2.6</td>
+              <td>linux_64_ruby2.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7607&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=linux&configuration=linux_ruby2.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=linux&configuration=linux_64_ruby2.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_ruby2.5</td>
+              <td>osx_64_ruby2.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7607&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=osx&configuration=osx_ruby2.5" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=osx&configuration=osx_64_ruby2.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_ruby2.6</td>
+              <td>osx_64_ruby2.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7607&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=osx&configuration=osx_ruby2.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rb-ffi-feedstock?branchName=master&jobName=osx&configuration=osx_64_ruby2.6" alt="variant">
                 </a>
               </td>
             </tr>
@@ -62,13 +64,6 @@ Current build status
       </details>
     </td>
   </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
-    </td>
-  </tr>
-![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
 </table>
 
 Current release info
@@ -114,7 +109,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
